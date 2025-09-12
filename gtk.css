@@ -1,0 +1,28 @@
+/* ============================================
+   AwesomeWM tray / symbolic icon színek
+   ============================================ */
+
+/* Alapértelmezett symbolic ikonok színe */
+.icon, image, button image {
+    color: #ffffff;          /* fehér szín */
+}
+
+/* Statusbar / panel / system tray ikonok */
+.status-icon, 
+.panel image,
+.system-tray image {
+    color: #ffffff;          /* fehér ikon a tálcán */
+}
+
+/* Hover effekt (opcionális) */
+.status-icon:hover,
+.panel image:hover,
+.system-tray image:hover {
+    color: #ffcc00;          /* sárga hover */
+}
+
+/* Méretállítás (opcionális) */
+.icon, image {
+    -gtk-icon-transform: scale(1);   /* 20%-kal nagyobb ikon */
+}
+
